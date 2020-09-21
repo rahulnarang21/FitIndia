@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/register_fit_champion"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        card_view:cardCornerRadius="23dp"
+        android:layout_margin="5dp"
+        card_view:cardElevation="0dp"
+        card_view:cardBackgroundColor="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/register_fit_champion_icon"
+                android:src="@drawable/fit_india_champion_icon"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/organise_label"
+                android:layout_toEndOf="@+id/register_fit_champion_icon"
+                android:textColor="@color/colorAccent"
+                android:text="Organise 2 more Events"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/register_fit_champion_icon"
+                android:layout_below="@+id/organise_label"
+                android:paddingTop="4dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:text="Become a Fit India Champion"
+                android:layout_toStartOf="@+id/right_icon"
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/right_icon"
+                android:src="@drawable/ic_keyboard_arrow_right"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:tint="@color/colorAccent"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

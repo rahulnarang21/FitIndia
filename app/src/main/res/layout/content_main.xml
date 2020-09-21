@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <include
+        layout="@layout/activity_main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/take_test"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                card_view:cardCornerRadius="23dp"
+                card_view:cardElevation="10dp"
+                android:layout_margin="10dp"
+                card_view:cardBackgroundColor="@color/colorAccent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/take_test_banner"
+                    android:scaleType="fitCenter"
+                    />
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:orientation="horizontal"-->
+                <!--                    android:weightSum="2"-->
+                <!--                    android:padding="20dp">-->
+
+                <!--                    <ImageView-->
+                <!--                        android:layout_width="0dp"-->
+                <!--                        android:layout_height="130dp"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:src="@drawable/run" />-->
+
+                <!--                    <TextView-->
+                <!--                        android:layout_width="0dp"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_weight="1"-->
+                <!--                        android:text="@string/take_your_fitness_test"-->
+                <!--                        android:textAllCaps="true"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:paddingEnd="1dp"-->
+                <!--                        android:textStyle="bold"-->
+                <!--                        android:lineHeight="30dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:drawableEnd="@drawable/round_right_icon"-->
+                <!--                        android:textColor="@android:color/black"-->
+                <!--                        />-->
+
+                <!--                </LinearLayout>-->
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/know_your_tests"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    card_view:cardCornerRadius="23dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/get_active_image" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="15dp"
+                                android:textSize="15sp"
+                                android:textColor="@android:color/black"
+                                android:text="@string/know_your_tests"
+                                android:textStyle="bold"
+                                android:layout_toStartOf="@+id/right_icon_yellow_bg"/>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/right_icon_yellow_bg"
+                                android:src="@drawable/right_icon_yellow_bg"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="15dp"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/get_active"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    card_view:cardCornerRadius="23dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/know_tests" />
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:paddingTop="23dp"
+                                android:paddingBottom="23dp"
+                                android:textSize="15sp"
+                                android:textColor="@android:color/black"
+                                android:text="Get Active"
+                                android:textStyle="bold"
+                                android:layout_toStartOf="@+id/video_yellow_bg"/>
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/video_yellow_bg"
+                                android:src="@drawable/video_yellow_bg"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="15dp"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/categories_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/white" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/register_fit_champion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="23dp"
+                android:layout_margin="10dp"
+                card_view:cardElevation="0dp"
+                android:visibility="gone"
+                card_view:cardBackgroundColor="@color/colorPrimary">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/register_fit_champion_icon"
+                        android:src="@drawable/fit_india_champion_icon"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/organise_label"
+                        android:layout_toEndOf="@+id/register_fit_champion_icon"
+                        android:textColor="@color/colorAccent"
+                        android:text="Organise 2 more Events"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toEndOf="@+id/register_fit_champion_icon"
+                        android:layout_below="@+id/organise_label"
+                        android:paddingTop="4dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:text="Become a Fit India Champion"
+                        android:layout_toStartOf="@+id/right_icon"
+                        />
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/right_icon"
+                        android:src="@drawable/ic_keyboard_arrow_right"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:tint="@color/colorAccent"
+                        />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blogs"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fitness_blog"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    card_view:cardCornerRadius="23dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/fitness_blog" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"
+                            android:text="@string/fitness"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nutrition_blog"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    card_view:cardCornerRadius="23dp"
+                    card_view:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/nutrition_blog" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"
+                            android:text="@string/nutrition"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Stories"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/share_story"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="25dp"
+                card_view:cardElevation="0dp"
+                android:layout_margin="10dp"
+                card_view:cardBackgroundColor="@color/colorPrimary">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:text="Share Your Story"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="15dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:id="@+id/story_image"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/srinivas" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@drawable/shaded_on_image"
+                            />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_play_arrow"
+                            android:layout_marginTop="55dp"
+                            android:layout_centerHorizontal="true"
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"
+                            android:text="Chitra Srinivas"
+                            android:textStyle="bold"
+                            android:layout_below="@+id/story_image"/>
+
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    card_view:cardCornerRadius="15dp"
+                    card_view:cardElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:id="@+id/story_image2"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/megha" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@drawable/shaded_on_image"
+                            />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_play_arrow"
+                            android:layout_marginTop="55dp"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/black"
+                            android:text="Megha Bhanushali"
+                            android:textStyle="bold"
+                            android:layout_below="@+id/story_image2"/>
+
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

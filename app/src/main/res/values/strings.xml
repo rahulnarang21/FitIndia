@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Fit India</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home">Home</string>
+    <string name="about_us">About Us</string>
+    <string name="get_fit">Get Fit</string>
+    <string name="get_active">Get Active</string>
+    <string name="media">Media</string>
+    <string name="events">Events</string>
+    <string name="become_a_leader">Become a Leader</string>
+    <string name="fit_india_school">Fit India School</string>
+    <string name="become_partner">Become a Partner</string>
+    <string name="your_story">Your Story</string>
+    <string name="login_register">Login/Register</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="exit_from_app">Are you sure you want to exit from the FitIndia App?</string>
+    <string name="retry">Retry</string>
+    <string name="airplane_mode_off">Airplane mode is off and try again</string>
+    <string name="not_connected_msg">You are not connected to the internet. Make sure WiFi or Mobile Data is ON</string>
+    <string name="no_internet_connection">No internet Connection</string>
+    <string name="data_saved_successfully">Data saved successfully!</string>
+    <string name="login">Login</string>
+    <string name="username_or_email_address">Username or Email Address</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="new_to_site_create_an_account">New to Site? <b>Create an Account</b></string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="register_as_fit_india_champion">Register as Fit India Champion</string>
+    <string name="other">Other</string>
+    <string name="ministry">Ministry</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="city_town_village">City/Town/Village</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="already_have_an_account_login">Already have an Account? <b>Login</b></string>
+    <string name="register">Register</string>
+    <string name="select">Select</string>
+    <string name="register_as">Register As</string>
+    <string name="select_state">Select State</string>
+    <string name="select_district">Select District</string>
+    <string name="select_block">Select Block</string>
+    <string name="select_valid_state">Please select a valid state!</string>
+    <string name="select_valid_state_district">Please select a valid state and district!</string>
+    <string name="validate_string_not_empty">Please enter a valid %s</string>
+    <string name="validate_select_not_empty">Please select a %s</string>
+    <string name="email_verification_symbols">^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="block">Block</string>
+    <string name="city">City</string>
+    <string name="leave_message">Are you sure you want to leave this page?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="logout">Logout</string>
+    <string name="new_user_register">New User? Register</string>
+    <string name="username">Please enter username</string>
+    <string name="enter_password">Please enter password</string>
+
+    <string name="something_went_wrong">Something went wrong! Please try again later.</string>
+    <string name="logout_confirm_msg">Are you sure you want to Logout?</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="individual">Individual</string>
+    <string name="subscriber">subscriber</string>
+    <string name="name_of">Name of %s</string>
+    <string name="designation">Designation</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="fitness">Fitness</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="know_your_tests">Know Your Tests</string>
+    <string name="take_your_fitness_test">Take your fitness test</string>
+
+    <string-array name="categories_array">
+        <item>NYKS</item>
+        <item>SCHOOL</item>
+        <item>GROUP</item>
+        <item>CORPORATE</item>
+        <item>NGO</item>
+        <item>GYM</item>
+    </string-array>
+
+    <string-array name="categories_subtitle_array">
+        <item>Nyks</item>
+        <item>school</item>
+        <item>group</item>
+        <item>corporate</item>
+        <item>ngo</item>
+        <item>gym</item>
+    </string-array>
+
+    <string-array name="ministry_categories_array">
+        <item>Ministry of Home Affairs</item>
+        <item>Ministry of Women and Child Development</item>
+        <item>Ministry of Human Resource Development (DSEL)</item>
+        <item>Ministry of Human Resource Development (HEI)</item>
+        <item>Ministry of Panchayati Raj</item>
+        <item>Ministry of Rural Development</item>
+        <item>Ministry of Tribal Affairs</item>
+        <item>Ministry of Health and Family Welfare</item>
+        <item>Ministry of Defence</item>
+        <item>Ministry of Housing and Urban Affairs</item>
+        <item>Ministry of AYUSH</item>
+        <item>Ministry of Agriculture and Farmers Welfare</item>
+        <item>Ministry of Chemicals and Fertilizers</item>
+        <item>Ministry of Civil Aviation</item>
+        <item>Ministry of Coal</item>
+        <item>Ministry of Commerce and Industry</item>
+        <item>Ministry of Communications</item>
+        <item>Ministry of Consumer Affairs, Food and Public Distribution</item>
+        <item>Ministry of Corporate Affairs</item>
+        <item>Ministry of Culture</item>
+        <item>Ministry of Development of North Eastern Region</item>
+        <item>Ministry of Earth Sciences</item>
+        <item>Ministry of Electronics and Information Technology</item>
+        <item>Ministry of Environment, Forest and Climate Change</item>
+        <item>Ministry of External Affairs</item>
+        <item>Ministry of Finance</item>
+        <item>Ministry of Fisheries, Animal Husbandry and Dairying</item>
+        <item>Ministry of Food Processing Industries</item>
+        <item>Ministry of Heavy Industries and Public Enterprises</item>
+        <item>Ministry of Information and Broadcasting</item>
+        <item>Ministry of Jal Shakti</item>
+        <item>Ministry of Labour and Employment</item>
+        <item>Ministry of Law and Justice</item>
+        <item>Ministry of Micro, Small and Medium Enterprises</item>
+        <item>Ministry of Mines</item>
+        <item>Ministry of Minority Affairs</item>
+        <item>Ministry of New and Renewable Energy</item>
+        <item>Ministry of Parliamentary Affairs</item>
+        <item>Ministry of Personnel, Public Grievances and Pensions</item>
+        <item>Ministry of Petroleum and Natural Gas</item>
+        <item>Ministry of Power</item>
+        <item>Ministry of Railways</item>
+        <item>Ministry of Road Transport and Highways</item>
+        <item>Ministry of Science and Technology</item>
+        <item>Ministry of Shipping</item>
+        <item>Ministry of Skill Development and Entrepreneurship</item>
+        <item>Ministry of Social Justice and Empowerment</item>
+        <item>Ministry of Statistics and Programme Implementation</item>
+        <item>Ministry of Steel</item>
+        <item>Ministry of Textiles</item>
+        <item>Ministry of Tourism</item>
+        <item>Ministry of Youth Affairs and Sports</item>
+    </string-array>
+
+    <string-array name="ministry_categories_subtitle_array">
+        <item>mha</item>
+        <item>mwcd</item>
+        <item>mhrddsel</item>
+        <item>mhrdhei</item>
+        <item>mpr</item>
+        <item>mrd</item>
+        <item>mta</item>
+        <item>mhfw</item>
+        <item>md</item>
+        <item>mhua</item>
+        <item>mayush</item>
+        <item>mafw</item>
+        <item>mcf</item>
+        <item>mcivila</item>
+        <item>mcoal</item>
+        <item>mci</item>
+        <item>mcomm</item>
+        <item>mconsumera</item>
+        <item>mcorpa</item>
+        <item>mculture</item>
+        <item>mdner</item>
+        <item>mearths</item>
+        <item>meit</item>
+        <item>mefcc</item>
+        <item>mexta</item>
+        <item>mfinance</item>
+        <item>mfahd</item>
+        <item>mfpi</item>
+        <item>mhipe</item>
+        <item>mib</item>
+        <item>mjs</item>
+        <item>mle</item>
+        <item>mlj</item>
+        <item>mmsme</item>
+        <item>mmines</item>
+        <item>mminoritya</item>
+        <item>mmre</item>
+        <item>mpa</item>
+        <item>mppgp</item>
+        <item>mpng</item>
+        <item>mpower</item>
+        <item>mrailways</item>
+        <item>mtransh</item>
+        <item>msciencetech</item>
+        <item>mshipping</item>
+        <item>mskillde</item>
+        <item>msje</item>
+        <item>msprog</item>
+        <item>msteel</item>
+        <item>mtextiles</item>
+        <item>mtourism</item>
+        <item>myouthas</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_register_fit_champion"-->
+<!--            android:title="@string/register_as_fit_india_champion"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/media"/>-->
+<!--        <item-->
+<!--            android:id="@+id/side_nav_get_fit"-->
+<!--            android:title="@string/get_fit"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/get_fit"/>-->
+
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_get_active"-->
+<!--            android:title="@string/get_active"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/get_active"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_events"-->
+<!--            android:title="@string/events"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/events"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_social_media"-->
+<!--            android:title="@string/media"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/media"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_fitindia_school"-->
+<!--            android:title="@string/fit_india_school"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/get_fit"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_your_story"-->
+<!--            android:title="@string/your_story"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/story"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_become_partner"-->
+<!--            android:title="@string/become_partner"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/events"/>-->
+
+<!--        <item-->
+<!--            android:id="@+id/side_nav_logout"-->
+<!--            android:title="@string/logout"-->
+<!--            android:checkable="false"-->
+<!--            android:icon="@drawable/get_active"/>-->
+
+
+            <item
+                android:id="@+id/side_nav_register_fit_champion"
+                android:title="@string/register_as_fit_india_champion"
+                android:checkable="false" />
+
+<!--            <item-->
+<!--                android:id="@+id/side_nav_get_fit"-->
+<!--                android:title="@string/get_fit"-->
+<!--                android:checkable="false" />-->
+
+
+            <item
+                android:id="@+id/side_nav_get_active"
+                android:title="@string/get_active"
+                android:checkable="false" />
+
+            <item
+                android:id="@+id/side_nav_events"
+                android:title="@string/events"
+                android:checkable="false"
+                />
+
+            <item
+                android:id="@+id/side_nav_social_media"
+                android:title="@string/media"
+                android:checkable="false" />
+
+            <item
+                android:id="@+id/side_nav_fitindia_school"
+                android:title="@string/fit_india_school"
+                android:checkable="false"/>
+
+            <item
+                android:id="@+id/side_nav_your_story"
+                android:title="@string/your_story"
+                android:checkable="false"/>
+            <item
+                android:id="@+id/side_nav_become_partner"
+                android:title="@string/become_partner"
+                android:checkable="false"/>
+
+            <item
+                android:id="@+id/side_nav_logout"
+                android:title="@string/logout"
+                android:checkable="false"/>
+
+
+
+
+    </group>
+
+</menu>

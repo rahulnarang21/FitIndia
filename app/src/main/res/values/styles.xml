@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+        <item name="android:icon">@drawable/menu_icon</item>
+        <item name="android:drawable">@drawable/menu_icon</item>
+    </style>
+
+    <style name="roundedRedBtnStyle" parent="Theme.AppCompat">
+        <item name="android:itemBackground">@drawable/rounded_borders_btn_single_color</item>
+        <item name="android:textAppearance">@style/roundedBtnTextAppereance</item>
+        <item name="android:background">@drawable/rounded_borders_btn_single_color</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="roundedBtnTextAppereance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+</resources>
